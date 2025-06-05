@@ -1,0 +1,11 @@
+2025-06-05 11:12:34,287 - INFO - Succesfully read the YAML file
+2025-06-05 11:12:34,287 - INFO - Data Ingestion started with bucket: mlops16, file: Hotel_Reservations.csv
+2025-06-05 11:12:34,287 - INFO - Starting the full data ingestion process...
+2025-06-05 11:12:34,287 - INFO - Attempting to download file from S3...
+2025-06-05 11:12:34,351 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-05 11:13:24,906 - INFO - CSV file successfully downloaded to artifacts/raw\raw.csv
+2025-06-05 11:13:24,906 - INFO - Starting the data splitting process...
+2025-06-05 11:13:25,193 - INFO - Train data saved to artifacts/raw\train.csv
+2025-06-05 11:13:25,193 - INFO - Test data saved to artifacts/raw\test.csv
+2025-06-05 11:13:25,193 - INFO - Data ingestion completed successfully
+2025-06-05 11:13:25,193 - INFO - Data ingestion process ended
